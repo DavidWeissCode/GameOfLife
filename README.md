@@ -1,2 +1,2 @@
 # GameOfLife
-HTML/JavaScript Implementation of Conway's Game of Life
+HTML and JavaScript Implementation of Conway's Game of Life
