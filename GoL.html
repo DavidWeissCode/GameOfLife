@@ -1,0 +1,23 @@
+<html lang="eng">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="GoL.css"/>
+  <script language="javascript" type="text/javascript" src="GoL.js"></script>
+  <title>Game of Life</title>
+</head>
+<body>
+  <h1 onmousedown="toggleLife()">Game of Life</h1>
+  <p id="description">HTML and JavaScript Implementation of <a target="_blank" href="https://de.wikipedia.org/wiki/Conways_Spiel_des_Lebens">Conway's Game of Life</a></p>
+  <div id="world"></div>
+  <div id="rules">
+    <ol>
+      <li>a dead cell with 3 neighbors will live</li>
+      <li>a living cell with < 2 neighbors will die because of loneliness</li>
+      <li>a living cell with 2 or 3 neighbors will live</li>
+      <li>a living cell with 3 < neighbors will die because of overpopulation</li>
+    </ol>
+  </div>
+
+</body>
+</html>

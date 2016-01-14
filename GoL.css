@@ -1,0 +1,22 @@
+body {
+  background: #EBCE91;
+  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+table, tr, td {
+  border: 1px solid #C9B589;
+  border-collapse: collapse;
+  background-color: #DBBE7F;
+}
+
+tr {
+  height: 10px;
+}
+
+td {
+  width: 8px;
+}
+
+a {
+  color: #B0915F;
+}
